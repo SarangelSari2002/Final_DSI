@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PerrosPeq/Styles/StylesPeq.css">
+    <title>Perros Pequeños</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Nalah.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Nalah</p>
+                    <span class="cuota">$ 230.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Nilah.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Nilah </p>
+                    <span class="cuota">$ 100.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Firulais.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Firulais</p>
+                    <span class="cuota">$ 360.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Kumi.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Kumi</p>
+                    <span class="cuota">$ 180.00</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Mila.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Mila</p>
+                    <span class="cuota">$ 130.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Roni.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Roni</p>
+                    <span class="cuota">$ 223.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Fili.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Fili</p>
+                    <span class="cuota">$ 247.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosPeq/Imagenes/Mani.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Mani</p>
+                    <span class="cuota">$ 180.90</span>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="" alt="" id="img">
+                <h2 id="modelo">Adopcion</h2>
+                <p id="descripcion">Descripción</p>
+                <span class="cuota" id="cuota"></span>
+                <div class="fila">
+                    <button><a href="Adopcion/PagAdop.html">ADOPTAR</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="PerrosPeq/Js/PerrosPeqJS.js"></script>
+</body>
+</html>

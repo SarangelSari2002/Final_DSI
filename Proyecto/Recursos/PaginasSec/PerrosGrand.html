@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PerrosGrand/Styles/StylesGrand.css">
+    <title>Perros Grandes</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Curly.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Curly</p>
+                    <span class="cuota">$ 230.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Gomi.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Gomi </p>
+                    <span class="cuota">$ 100.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Jhin.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Jhin</p>
+                    <span class="cuota">$ 360.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Kim.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Kim</p>
+                    <span class="cuota">$ 180.00</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Lucky.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Lucky</p>
+                    <span class="cuota">$ 130.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Mim.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Mim</p>
+                    <span class="cuota">$ 223.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Tumy.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Tumy</p>
+                    <span class="cuota">$ 247.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosGrand/Imagenes/Fizz.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Fizz</p>
+                    <span class="cuota">$ 180.90</span>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="" alt="" id="img">
+                <h2 id="modelo">Adopcion</h2>
+                <p id="descripcion">Descripción</p>
+                <span class="cuota" id="cuota"></span>
+                <div class="fila">
+                    <button><a href="Adopcion/PagAdop.html">ADOPTAR</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="PerrosGrand/Js/PerrosGrandJS.js"></script>
+</body>
+</html>

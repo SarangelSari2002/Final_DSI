@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PerrosMed/Styles/StylesMed.css">
+    <title>Perros Pequeños</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Anki.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Anki</p>
+                    <span class="cuota">$ 230.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Burh.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Burh </p>
+                    <span class="cuota">$ 100.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Carly.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Carly</p>
+                    <span class="cuota">$ 360.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Dum.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Dum</p>
+                    <span class="cuota">$ 180.00</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Lim.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Lim</p>
+                    <span class="cuota">$ 130.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Links.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Links</p>
+                    <span class="cuota">$ 223.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Mili.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Mili</p>
+                    <span class="cuota">$ 247.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="PerrosMed/Imagenes/Mirmi.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Mirmi</p>
+                    <span class="cuota">$ 180.90</span>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="" alt="" id="img">
+                <h2 id="modelo">Adopcion</h2>
+                <p id="descripcion">Descripción</p>
+                <span class="cuota" id="cuota"></span>
+                <div class="fila">
+                    <button><a href="Adopcion/PagAdop.html">ADOPTAR</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="PerrosMed/Js/PerrosMedJS.js"></script>
+</body>
+</html>

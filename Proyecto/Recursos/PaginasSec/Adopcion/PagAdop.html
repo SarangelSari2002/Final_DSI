@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Documento</title>
+   <link rel="stylesheet" href="Styles/StyleAdop.css">
+</head> 
+<body>
+    <form action="https://formsubmit.co/jperez220@alumnos.uaq.mx" method="POST">
+	    <h2>Contacto Adopcion</h2>
+	    <div class="input-group">
+	
+	        <label for="name">Nombre</label>
+	        <input type="text" name="name" id="name" placeholder="Nombre">
+			
+			<label for="phone">Telefono</label>
+	        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+			
+			<label for="email">Correo</label>
+	        <input type="email" name="email" id="email" placeholder="Correo">
+			
+			<label for="message">Mensaje</label>
+	        <textarea name="message" id="message" col="30" rows="5" placeholder="Favor de escribir que perro va a querer, nos pondremos en contacto lo mas pronto posible."></textarea>
+			
+			<div class="form-txt">
+			<a href="#">Politica de privacidad</a>
+			<a href="#">Terminos y condiciones</a>
+			</div>
+			<input class="btn" type="submit" value="Enviar">
+			<input type="hidden" name="_next" value="http://127.0.0.1:5501/">
+			<input type="hidden" name="_captcha" value "false">
+	    </div>
+	</form>
+</body>
+</html>
